@@ -1,0 +1,20 @@
+{ 
+  "name": "nodejs-typescript-express-boilerplate",
+  "version": "0.1.0",
+  "description": "just a boilerplate for a nodejs applicaton which runs with typescript",
+  "main": "dist/app.js",
+  "author": "PaulShovan",
+  "license": "MIT",
+  "scripts": {
+    "start": "tsc && node dist/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.2",
+    "tslint": "^5.20.1",
+    "typescript": "^3.7.3"
+  }
+}
